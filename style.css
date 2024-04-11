@@ -2,6 +2,11 @@ body {
   background-color: #CCCCCC;
 }
 
+.principal {
+  background-color: #9a8484;
+  padding: 30px;
+}
+
 #banner {
   width: 100%;
 }
@@ -23,6 +28,26 @@ em strong {
   color: #856363;
 }
 
+.beneficos {
+  background-color: #938a8a;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
 .item {
   font-style: italic;
+}
+
+.imgBeneficios {
+  width: 50%;
 }
