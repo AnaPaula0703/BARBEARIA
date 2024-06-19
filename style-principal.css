@@ -194,6 +194,8 @@ td, th{
   padding: 3em 0;
   margin: 0 auto;
   background: linear-gradient(#FEFEFE, #888888);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mapa-conteudo{
@@ -226,4 +228,28 @@ td, th{
 
 .imgBeneficios{
   width: 50%;
+}
+
+.titulo-principal:first-letter{
+  color: red;
+}
+
+.titulo-principal:before{
+  content: "[";
+}
+
+.titulo-principal:after{
+  content: "]";
+}
+
+p:first-line{
+  font-style: italic;
+}
+
+.item:before{
+  content: "★";
+}
+
+.item:first-child{
+  font-weight: bold;
 }
