@@ -162,7 +162,7 @@ td, th{
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
-  
+  color: rgb(0, 0, 0, 0.4) /*0 ao 255, vermelho, verde, azul*/ /*0.4 opacidade*/
 }
 
 .principal{
@@ -228,6 +228,13 @@ td, th{
 
 .imgBeneficios{
   width: 50%;
+  opacity: 0.6; /*0 ao 1*/
+  transition: 1s;
+}
+
+.imgBeneficios:hover{
+  width: 50%;
+  opacity: 1; /*0 ao 1*/
 }
 
 .titulo-principal:first-letter{
@@ -253,3 +260,20 @@ p:first-line{
 .item:first-child{
   font-weight: bold;
 }
+
+/*Estudar*/
+/*main > p{
+  background: red;
+} Pode cair na prova*/
+
+/*img + p{
+  background: purple;
+}*/
+
+/*img ~ p{
+  background: yellow;
+}*/
+
+/*.principal p:not(#missao){
+  background: orange;
+}*/
